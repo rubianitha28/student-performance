@@ -1,0 +1,6 @@
+SQL
+SELECT subject_name, 
+       marks
+FROM student_marks_table
+WHERE student_id = :P12_STUDENT_ID
+ORDER BY subject_name;
