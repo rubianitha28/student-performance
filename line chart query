@@ -1,0 +1,6 @@
+SQL
+SELECT marks_obtained, 
+       test_number
+FROM student_progress
+WHERE student_id = :P3_STUDENT_ID
+ORDER BY test_number ASC;
